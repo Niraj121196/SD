@@ -1,0 +1,29 @@
+.image{
+    background: url(../images/dummy.jpg);
+    background-size: cover;
+    width: 100% !important;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: x-large;
+    margin-left: 8%;
+}
+
+.btn-border{
+    border-color: transparent !important;
+}
+.nav-wrapper {
+    opacity: 0;
+    z-index: 10;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+
+.nav-transition
+{
+    opacity: 0.97;
+    z-index: 20;
+    transition: all 0.5s ease-in-out 0s;
+}
