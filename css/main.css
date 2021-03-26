@@ -11,6 +11,10 @@
     margin-left: 8%;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .btn-border{
     border-color: transparent !important;
 }
@@ -34,11 +38,6 @@
     transition: all 0.5s ease-in-out 0s;
 }
 
-/* .social_icon{
-    width: 40px;
-    padding: 0.1em;
-    float: right;
-} */
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
@@ -47,6 +46,7 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    z-index: 999;
 }
   
   /* Style the icon bar links */
@@ -60,8 +60,25 @@
 }
   
   /* Style the social media icons with color, if you want */
+.facebook {
+    background: #3B5998;
+}
+.instagram{
+    background: crimson;
+}
+.youtube {
+    background: #bb0000;
+}
+
 .icon-bar a:hover {
     background-color: #000;
+}
+
+
+
+/* #4ccdd9 , #474869 */
+.card{
+    box-shadow: 10px 40px 115px 27px rgb(0 0 0 / 10%);
 }
 
 .bgimage{
@@ -72,4 +89,64 @@
     background: url(../images/middle-cover.png) no-repeat;
     background-size: 100% auto;
 
+}
+.bgimage h1{
+    padding: 3rem 1rem;
+}
+
+.abt-card{
+    padding: 2rem 5rem;
+}
+
+.gradient{
+    position: absolute;
+    background: -webkit-linear-gradient(#4ccdd9, #127c77 );
+    color: #ffffff;
+    padding: 0.4rem 0.8rem;
+    font-weight: bold;    
+}
+
+.abt-card .box-heading{
+    position: absolute;
+    left: -1em;
+    top: -2em;
+}
+
+.box-heading-activities{
+    top: 4em;
+}
+
+.activity-image{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.grid-gap{
+    padding: 1rem 2rem;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+}
+
+.contact-form{
+    padding: 1rem;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 14px 22px;
+    margin-bottom: 30px;
+    border: 0;
+    background: #f4f6f7;
+    color: #050505;
+    outline: none;
 }
