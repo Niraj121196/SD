@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 .image{
     background: url(../images/dummy.jpg);
     background-size: cover;
@@ -83,9 +87,7 @@ body{
 
 .bgimage{
 
-    min-height: 3750px;
     width: 100%;
-    padding-bottom: 120px;
     background: url(../images/middle-cover.png) no-repeat;
     background-size: 100% auto;
 
@@ -150,3 +152,63 @@ body{
     color: #050505;
     outline: none;
 }
+
+.footer-basic {
+    padding: 6rem 0;
+    background-color:#000000;
+    color:#ffffff;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size: 1.5rem;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom: 1rem;
+  }
+  
+  .footer-basic .social > a {
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height:2.5rem;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 1rem;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top: 1em;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
